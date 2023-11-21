@@ -1,0 +1,1244 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+#head
+{
+    height: 230px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-bottom-width: 7px;
+    border-bottom-style: solid;
+    border-bottom-color:  rgb(219, 219, 219);
+    box-shadow: 0 -5px 0 darkgray;
+    z-index: 2;
+    
+}
+#logo
+{
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 2;
+}
+#img1
+{
+    height: 45px;
+    z-index: 2;
+}
+#head2
+{
+    height: 42px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    align-items: center;
+    padding: 25px;
+    z-index: 2;
+}
+.ht
+{
+    height:42px;
+    width: 10%;
+    border-top: 4px solid;
+    border-color: black;
+    z-index: 2;
+}
+.hts
+{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    z-index: 2;
+}
+.hts:hover
+{
+    color: rgb(176, 0, 32);
+}
+#menu
+{
+    height: 25px;
+    width: 2%;
+    display: flex;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: darkgray;
+    align-self: flex-start;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#head3
+{
+    height: 60px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    z-index: 2;
+}
+#hl
+{
+    height: 60px;
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    z-index: 2;
+}
+ul
+{
+    display: flex;
+    list-style: none;
+    z-index: 2;
+}
+.hlt
+{
+    color: rgb(176, 0, 32);
+    text-decoration: none;
+    z-index: 2;
+}
+.hlt:hover
+{
+    text-decoration: underline;
+}
+#s
+{
+    color: rgb(145, 145, 145);
+    z-index: 2;
+}
+#s:hover
+{
+    color: rgb(67, 66, 66);
+}
+#hr
+{
+    height: 60px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+#hr1,#hr2,#hr3,#hr4
+{
+    height: 60px;
+    z-index: 2;
+}
+#hr1
+{
+    width: 110px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5px;
+    cursor: pointer;
+    padding-left: 40px;
+    
+}
+#hr2
+{
+    width: 130px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    transition-property: all;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+#hr2:hover
+{
+    text-decoration: underline;
+    text-decoration-color: rgb(176, 0, 32);
+    text-underline-offset: 3px ;
+}
+#i2
+{
+    height: 25px;
+    color: black;
+    z-index: 2;
+}
+#hr3
+{
+    height: 30px;
+    width: 140px;
+    background-color:rgb(176, 0, 32) ;
+    background-image: url(https://www.thehindu.com/static/content/images/20231109065610/diwali-btn.svg);
+    background-size: cover;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+#hr3:hover
+{
+    background-color: black;
+}
+#hr4
+{
+    height: 10px;
+    width: 120px;
+    color: rgb(176, 0, 32);
+    border: 1px solid rgb(176, 0, 32);
+    border-radius: 3px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#hr4:hover
+{
+    background-color:rgb(176, 0, 32) ;
+    color: white;
+}
+#top
+{
+    height: 74px;
+    background-color: white;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+#tl
+{
+    height: 74px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+#tl1
+{
+    height: 46px;
+    width: 6%;
+    background-image: url(https://www.thehindu.com/theme/images/th-online/h-circle-black-white-new.svg);
+    background-size: cover;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+.tlt
+{
+    height: 74px;
+    width: 15%;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    z-index: 1;
+}
+.tlts
+{
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 1;
+
+}
+.tlts:hover
+{
+    color:rgb(176, 0, 32)  ;
+}
+#tr
+{
+    height: 74px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+#menu1
+{
+    height: 30px;
+    width: 7%;
+    display: flex;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: darkgray;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#ad
+{
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+}
+#img2
+{
+    height: 250px;
+    width: 70%;
+}
+#adt
+{
+    color: darkgray;
+}
+#icc
+{
+    height: 210px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(90deg, white 4px, transparent 1%)center,linear-gradient(#fff 5px,transparent 1%) center,rgba(0,0,0,0.2);
+    background-size: 6px 6px;
+}
+iframe
+{
+    width: 85%;
+    height: 200px;
+    overflow:scroll;
+    z-index: 0;
+}
+#pics
+{
+    height: 435px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 1.9%;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid darkgray;
+    border-bottom-width: 85%;
+}
+.ps
+{
+    height: 435px;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+#p1
+{
+    background-image: url(https://ss-i.thgim.com/public/incoming/ii74x4/article67551180.ece/alternates/PORTRAIT_300/2023-11-19T130324Z_928686920_UP1EJBJ109LHX_RTRMADP_3_CRICKET-WORLDCUP-IND-AUS.JPG);
+    background-size: cover;
+}
+#p2
+{
+    background-image: url(https://th-i.thgim.com/public/incoming/h9u64b/article67550366.ece/alternates/PORTRAIT_300/WhatsApp%20Image%202023-11-19%20at%2012.08.06%20PM.jpeg);
+    background-size: cover;
+}
+#p3
+{
+    background-color: rgb(176, 0, 32);
+}
+#p4
+{
+    background-image: url(https://th-i.thgim.com/public/sci-tech/science/p6twon/article67550615.ece/alternates/PORTRAIT_300/Crab-eating_macaque_%28Macaca_fascicularis%29_Phang_Nga.jpg);
+    background-size: cover;
+}
+.pt
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+#ptb
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+.pt1,.pt2
+{
+    color: white;
+    font-weight: 600;
+}
+.pt2
+{
+    font-size: 1.5rem;
+    font-style: oblique;
+}
+#pt2b
+{
+    font-size: 2rem;
+}
+#section2
+{
+    display: flex;
+    justify-content: center;
+}
+#s2
+{
+    height: 975px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    margin-bottom: 10px;
+}
+#left,#middle,#right
+{
+    height: 975px;
+    padding: 0 12px 0 12px;
+}
+#left,#right
+{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+#left1
+{
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+}
+.h1
+{
+    font-size: 2rem;
+    color:rgb(176, 0, 32) ;
+    font-weight: 650;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.h1:hover{
+    text-decoration: underline;
+}
+.ls 
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    justify-content: center;
+
+}
+#ls1
+{
+    height: 118px;
+}
+#ls2
+{
+    height: 158px;
+}
+#ls2 .text
+{
+    margin-top: 20px;
+}
+#ls3
+{
+    height: 120px;
+}
+#ls3 .text
+{
+    margin-top: 15px;
+}
+#ls4
+{
+    height: 135px;
+    
+}
+#ls4 .text
+{
+    margin-top: 18px;
+}
+.text
+{
+    color: black;
+    text-decoration: none;
+    width: 75%;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.text:hover
+{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.name
+{
+    color: black;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+.name:hover
+{
+    text-decoration: none;
+}
+.icircle
+{
+    height: 52px;
+    width: 52px;
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    bottom: 20px;
+}
+#left2
+{
+    height: 8.6px;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 10px 0 10px 0;
+    align-self: center;
+}
+#left3
+{
+    height: 366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.l3s
+{
+    display: flex;
+    flex-direction: column;
+}
+.h2
+{
+    color:rgb(176, 0, 32) ;
+    font-weight: 580;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.h2:hover
+{
+    text-decoration: underline;
+}
+#l3s2
+{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px 0 20px 0;
+}
+#middle
+{
+    width: 50%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#middle1
+{
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#bh
+{
+    font-size: 3rem;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+#bh:hover{
+    text-decoration: underline;
+}
+a
+{
+    cursor: pointer;
+}
+#middle1 #text
+{
+    width: 100%;
+}
+#img3
+{
+    height: 350px;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+#middle2
+{
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+#mleft
+{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
+#live
+{
+    color: rgb(176, 0, 32);
+    font-weight: 600;
+}
+.text2
+{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.text2:hover
+{
+    text-decoration: underline;
+}
+#img4
+{
+    height: 164px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#mright
+{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    padding-left: 20px;
+}
+#mr1
+{
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+
+    border-bottom: 1px solid black;
+}
+#right1
+{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+#ln
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    width: 85%;
+    list-style-type: circle;
+}
+li
+{
+    padding: 8px 0 8px 0;
+    border-bottom: 1px solid black;
+}
+#ex
+{
+    border-bottom: none;
+}
+#rms
+{
+    margin-top: 10px;
+    color: black;
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+
+.time
+{
+    color: black;
+    text-decoration: none;
+}
+#right2
+{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+#r1
+{
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+    border-bottom: 1px solid black;
+
+}
+#sp
+{
+    height: 30px;
+    width: 30%;
+    background-color: rgb(110, 110, 110);
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+#r2
+{
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+#ds
+{
+    height: 172px;
+    width: 100%;
+    display: flex;
+}
+#d1
+{
+    height: 172px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+#lang
+{
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+#lan
+{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    column-gap: 2%;
+
+}
+#img5
+{
+    height: 75px;
+    width: 45%;
+}
+.l
+{
+    border: 1px solid black;
+    border-radius: 30px;
+}
+#d2,#d3
+{
+    height: 172px;
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+}
+#d3
+{
+    border-left: 1px solid black;
+    padding-left: 20px;
+}
+#food
+{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 20px 0;
+}
+#img6
+{
+    height: 36px;
+}
+#fd
+{
+    color: rgb(176, 0, 32);
+    font-size: 2rem;
+    font-weight: 600;
+}
+#pics2
+{
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding-bottom: 50px;
+}
+.ps2
+{
+    height: 330px;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+@media (max-width:1080px)
+{
+    #s2,#right1
+    {
+        height: 150%;
+    }
+    
+}
+@media (max-width: 1650px)
+{
+    #mr1,#right1
+    {
+        height: 200%;
+    }
+}
+@media (max-width:1450px)
+{
+    #s2,#middle
+    {
+        height: 200%;
+    }
+    #middle2,#mleft
+    {
+        height: 250%;
+    }
+    #sp
+    {
+        width: 50%;
+    }
+}
+@media (max-width:1430px)
+{
+    #middle2
+    {
+        height: 300%;
+    }
+    #left1
+    {
+        height: 150%;
+    }
+    #left
+    {
+        height:200% ;
+    }
+    
+}
+@media (max-width:1350px)
+{
+    #s2
+    {
+        height: 300%;
+    }
+    #middle
+    {
+        height: 300%;
+    }
+    #middle1,#middle2
+    {
+        height: 350%;
+    }
+    #left2,#left3
+    {
+        height: 200%;
+    }
+    #tl1
+    {
+        height: 50%;
+    }
+    #hr3
+    {
+        width: 180px;
+    }
+}
+
+@media (max-width:1150px)
+{
+    #s2
+    {
+        height: 350%;
+    }
+    #middle
+    {
+        height: 350%;
+    }
+    #middle1,#middle2
+    {
+        height: 400%;
+    }
+    #left2,#left3
+    {
+        height: 250%;
+    }
+}
+@media (max-width:1100px)
+{
+    #s2
+    {
+        height: 400%;
+    }
+    #right2,#left1
+    {
+         height: 300%;
+    }
+    #mr2
+    {
+        height: 150%;
+    }
+    .ls
+    {
+        height: 200%;
+    }
+    #ls2,#ls4,#ls3
+    {
+        height: 200%;
+    }
+    #left1
+    {
+        height: 200%;
+    }
+    .tlts
+    {
+      width: 50%;
+      font-size: 1.3rem;
+    }
+    #tl1
+    {
+        height: 40%;
+    }
+    #r2
+    {
+        height: 120%;
+    }
+    #head #hr3
+    {
+        width: 240px;
+    }
+
+}
+@media (max-width:1000px)
+{
+    #top #hr3
+    {
+        width: 250px;
+    }
+    #head #hr3
+    {
+        width: 350px;
+    }
+    #r2
+    {
+        height: 250%;
+    }
+    #sp
+    {
+        width: 65%;
+    }
+
+}
+@media (max-width:850px)
+{
+    #tl1
+    {
+       height: 35%;
+    }
+    #head #hr3
+    {
+        width: 330px;
+    }
+}
+@media (max-width:800px)
+{
+    #s2
+    {
+        flex-direction: column;
+    }
+    #left,#right,#middle
+    {
+        width: 95%;
+    }
+    #middle,#right
+    {
+        margin-top: 30px;
+    }
+    #head #hr3
+    {
+        width: 420px;
+    }
+    #r1,#r2
+    {
+        height: 200%;
+    }
+    #left2
+    {
+        height: 50%;
+    }
+    #hr
+    {
+        width: 52%;
+    }
+    #hl
+    {
+        width: 60%;
+    }
+    .hlt
+    {
+        font-size: 0.55rem;
+    }
+    #s
+    {
+        width: 25%;
+    }
+    #tl1
+    {
+       height: 30%;
+    }
+    #top #hr3
+    {
+        width: 360px;
+    }
+    .tlts
+    {
+        font-size: 1.1rem;
+    }
+    #d1
+    {
+        width: 25%;
+    }
+
+}
+@media(max-width:730px)
+{
+    #pics
+    {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    .ps
+    {
+        height: 650px;
+        width: 85%;
+    }
+    #top #hr3
+    {
+        width: 450px;
+    }
+    #tr
+    {
+        width: 50%;
+    }
+    #tr
+    {
+        width: 55%;
+    }
+    #head #hr3
+    {
+        
+    }
+    .tlts
+    {
+        font-size: 1rem;
+    }
+   #d1
+   {
+    width: 28%;
+   }
+   #tl1
+   {
+    height: 26%;
+   }
+   #ft
+   {
+    font-size: 0.8;
+   }
+   #ps21
+   {
+    width: 25%;
+   }
+}
+@media (max-width:650px)
+{
+    #ds
+    {
+        flex-direction: column;
+        height: 200%;
+        align-items: center;
+        row-gap: 20px;
+        border-bottom: 1px solid black;
+        padding-bottom: 20px;
+    }
+    #d1,#d2
+    {
+        border-bottom: 1px solid black;
+        padding-bottom: 15px;
+    }
+    #d3
+    {
+        border: none;
+        padding:0;
+    }
+    #head #hr3
+    {
+        width: 440px;
+    }
+    #hr
+    {
+        width: 40%;
+    }
+    #ft
+    {
+        font-size: 0.5rem;
+    }
+    #head #hr3 p
+    {
+        background-size: contain;
+    }
+    #head #hr3
+    {
+        height: 18px;
+    }
+    #l
+    {
+        font-size: 0.5rem;
+    }
+    #hr4
+    {
+        padding: 4px;
+    }
+    .hlt
+    {
+       font-size: 0.5rem;
+    }
+    #s
+    {
+        font-size: 0.8rem;
+    }
+    #img2
+    {
+        width: 80%;
+    }
+    #adt
+    {
+        font-size: 0.8rem;
+    }
+    .tlts
+    {
+        font-size: 0.8rem;
+    }
+    #top #hr3
+    {
+        height: 22px;
+        width: 420px;
+    }
+    #ds
+    {
+        padding-bottom: 40px;
+    }
+    #pics2
+    {
+     flex-direction: column;
+     height: 200%;
+     align-items: center;
+    }
+    .ps2
+    {
+        width: 85%;
+        height: 150%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-bottom: 1px solid black;
+    }
+    #pics
+    {
+        row-gap: 10px;
+    }
+    #right2
+    {
+        height: 350%;
+    }
+    #d2
+    {
+        padding-bottom: 30px;
+    }
+    #d3
+    {
+        height: 250px;
+    }
+}
+@media (max-width:530px)
+{
+    #img1
+    {
+      height: 35px;
+    }
+    .hts
+    {
+        font-size: 1rem;
+    }
+    #hr
+    {
+        width: 40%;
+    }
+    #hl
+    {
+        width: 60%;
+    }
+    .hlt
+    {
+        font-size:0.5rem ;
+    }
+    #top #hr3
+    {
+        height: 22px;
+        width: 420px;
+    }
+    #head #hr3
+    {
+        height: 10px;
+
+    }
+    #middle
+    {
+        height: 400%;
+        margin-bottom: 100px;
+    }
+    #right1
+    {
+        height: 250%;
+    }
+    
+    #tr
+    {
+        width: 50%;
+    }
+    #tr #hr3
+    {
+        height: 16px;
+    }
+    #head2
+    {
+        width: 100%;
+    }
+    #ds
+    {
+        height: 300%;
+    }
+    #d2
+    {
+        height: 220px;
+    }
+    #d3
+    {
+        height: 250px;
+        padding-top: 30px;
+    }
+
+}
